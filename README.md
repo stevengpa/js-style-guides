@@ -24,3 +24,7 @@ Search and Install the packages: `linter` and `linter-eslint`.
 #### Enter to the `linter-eslint`' settings
 
 <img src="https://github.com/StevenPerez/images/blob/master/atom-lint-settings.png?raw=true"></img>
+
+### WebStorm
+
+<img src="https://github.com/StevenPerez/images/blob/master/webstorm-eslint-settings.png?raw=true"></img>
