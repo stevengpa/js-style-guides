@@ -12,7 +12,7 @@ sudo npm install --global babel-eslint eslint-plugin-react eslint esformatter es
 Download this repo, unzip the `js-style-guides-master` folder in the same level of your Project's folder.
 
 ### Step 3
-Enter to the `js-style-guides-master` folder and modify the paths included in the .eslintignore file, it should point to your Project's folder
+Enter to the `js-style-guides-master` folder and modify the paths included in the `.eslintignore` file, it should point to your Project's folder
 
 ## Configuration
 
