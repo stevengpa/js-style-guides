@@ -1,0 +1,6 @@
+<ProjectFolder>/.tmp/**
+<ProjectFolder>/.idea/**
+<ProjectFolder>/node_modules/**
+<ProjectFolder>/babel_components/**
+<ProjectFolder>/build/**
+<ProjectFolder>/coverage/**
