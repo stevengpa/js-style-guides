@@ -18,7 +18,9 @@ Enter to the `js-style-guides-master` folder and modify the paths included in th
 
 ### Atom
 
-### Go to Atom Menu > Preferences > Install
+#### Go to Atom Menu > Preferences > Install
 Search and Install the packages: `linter` and `linter-eslint`.
 
-### Enter to the `linter-eslint`' settings
+#### Enter to the `linter-eslint`' settings
+
+<img src="https://github.com/StevenPerez/images/blob/master/atom-lint-settings.png?raw=true"></img>
