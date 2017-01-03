@@ -28,3 +28,20 @@ Search and Install the packages: `linter` and `linter-eslint`.
 ### WebStorm
 
 <img src="https://github.com/StevenPerez/images/blob/master/webstorm-eslint-settings.png?raw=true"></img>
+
+### Sublime Text
+
+#### Install the `SublimeLinter-contrib-eslint` package.
+
+#### Go to Sublime Text Menu > Preferences > Package Settings > ESlint > Settings Default
+
+Copy the following JSON config:
+
+```bash
+{
+  "node_path": "/usr/local/bin",
+  "node_modules_path": "/usr/local/lib/node_modules",
+  "config_file": "<FULLPATH>/js-style-guides-master/.eslintrc"
+}
+
+```
