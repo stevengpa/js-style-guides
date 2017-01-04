@@ -31,6 +31,8 @@ Search and Install the packages: `linter` and `linter-eslint`.
 
 ### Sublime Text
 
+#### Way #1:
+
 #### Install the `ESlint` and `SublimeLinter-contrib-eslint` packages.
 
 #### Go to Sublime Text Menu > Preferences > Package Settings > ESlint > Settings Default
@@ -45,3 +47,35 @@ Copy the following JSON config:
 }
 
 ```
+
+#### Way #2:
+
+#### Install the `ESlint`, `SublimeLinter`, `SublimeLinter-contrib-eslint` and `SublimeLinter-contrib-eslint_d` packages.
+
+#### Go to Sublime Text Menu > Preferences > Package Settings > SublimeLinter > Settings Default
+
+Update the `linters` property according to the following JSON config:
+
+```bash
+"linters": {
+    "eslint": {
+        "@disable": false,
+        "args": [
+            "--rulesdir",
+            "<FULLPATH>/js-style-guides-master",
+            "--ignore-path",
+            "<FULLPATH>/js-style-guides-master/.eslintignore",
+            "-c",
+            "<FULLPATH>/js-style-guides-master/.eslintrc"
+        ],
+        "excludes": []
+    },
+    "eslint_d": {
+        "@disable": false,
+        "args": [],
+        "excludes": []
+    }
+}
+```
+
+
