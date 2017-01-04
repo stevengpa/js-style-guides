@@ -43,7 +43,7 @@
     // disallow Use of console
     "no-console": 1,
     // disallow mixed spaces and tabs for indentation
-    "no-mixed-spaces-and-tabs": 1,
+    "no-mixed-spaces-and-tabs": 2,
     // don't allow unused vars and functions. allow unused function params.
     "no-unused-vars": [1, { "args": "none" }],
     // semicolons must be used any place where they are valid.
