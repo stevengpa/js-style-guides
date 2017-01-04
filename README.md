@@ -31,7 +31,7 @@ Search and Install the packages: `linter` and `linter-eslint`.
 
 ### Sublime Text
 
-#### Install the `SublimeLinter-contrib-eslint` package.
+#### Install the `ESlint` and `SublimeLinter-contrib-eslint` packages.
 
 #### Go to Sublime Text Menu > Preferences > Package Settings > ESlint > Settings Default
 
