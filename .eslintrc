@@ -39,7 +39,7 @@
     // enforces spacing after commas
     "comma-spacing": [2, {"before": false, "after": true}],
     // trailing commas in object literals
-    "comma-dangle": 1,
+    "comma-dangle": [2, "always-multiline"],
     // disallow Use of console
     "no-console": 1,
     // disallow mixed spaces and tabs for indentation
