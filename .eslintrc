@@ -79,7 +79,9 @@
     // multiline jsx should be wrapped in parens
     "react/wrap-multilines": 2,
     // Configure the position of the first property
-    "jsx-first-prop-new-line": [2, "multiline"]
+    "jsx-first-prop-new-line": [2, "multiline"],
+    // Use PascalCase for React components and camelCase for their instances
+    "react/jsx-pascal-case": 2
   },
   "plugins": [
     "react"
