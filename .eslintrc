@@ -21,46 +21,46 @@
   },
   "rules": {
     // require file to end with single newline
-    "eol-last": 1,
+    "eol-last": 2,
     // use the type-safe equality operators === and !== instead of their regular counterparts == and !=
-    "eqeqeq": 1,
+    "eqeqeq": 2,
     // suggest to use let or const instead of var
     "no-var": 0,
     // If a variable is never modified, using the const declaration is better
     "prefer-const": 0,
     // disallow trailing spaces at the end of lines
-    "no-trailing-spaces": 1,
+    "no-trailing-spaces": 2,
     // disallow the space around a semicolon
-    "semi-spacing": 1,
+    "semi-spacing": 2,
     // require Space Before Blocks
-    "space-before-blocks": [1, { "keywords": "always" }],
+    "space-before-blocks": [2, { "keywords": "always" }],
     // require Space Before else Block
-    "keyword-spacing": [1, { "before": true }],
+    "keyword-spacing": [2, { "before": true }],
     // require space before and after arrow function's arrow
-    "arrow-spacing": [1, { "before": true, "after": true }],
+    "arrow-spacing": [2, { "before": true, "after": true }],
     // enforces spacing after commas
-    "comma-spacing": [1, {"before": false, "after": true}],
+    "comma-spacing": [2, {"before": false, "after": true}],
     // trailing commas in object literals
-    "comma-dangle": [1, "always-multiline"], //check
+    "comma-dangle": [2, "always-multiline"],
     // disallow Use of console
     "no-console": 1,
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // don't allow unused vars and functions. allow unused function params.
-    "no-unused-vars": [1, { "args": "none" }],
+    "no-unused-vars": [2, { "args": "none" }],
     // semicolons must be used any place where they are valid.
     "semi": [2, "always"],
     // only allow single quotes in javascript
-    "quotes": [1, "single"],
+    "quotes": [2, "single"],
     // only allow double quotes for jsx attributes, unless the attr contains quotes (since escaping is impossible)
-    "jsx-quotes": [1, "prefer-double"],
+    "jsx-quotes": [2, "prefer-double"],
     // all components must be defined in the module
     "react/jsx-no-undef": 2,
     // closing brackets on new line for multiline component def
-    "react/jsx-closing-bracket-location": 1,
+    "react/jsx-closing-bracket-location": 2,
     // only add spaces inside object def curlies, not jsx curlies
-    "react/jsx-curly-spacing": [1, "never"],
-    "react/jsx-indent-props": [1, "tab"],
+    "react/jsx-curly-spacing": [2, "always"],
+    "react/jsx-indent-props": [2, "tab"],
     "react/jsx-no-duplicate-props": 2,
     // don't mark `React` as unused
     "react/jsx-uses-react": 1,
