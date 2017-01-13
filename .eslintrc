@@ -81,7 +81,11 @@
     // Configure the position of the first property
     "jsx-first-prop-new-line": [2, "multiline"],
     // Use PascalCase for React components and camelCase for their instances
-    "react/jsx-pascal-case": 2
+    "react/jsx-pascal-case": 2,
+    // Always include a single space in your self-closing tag.
+    "react/jsx-space-before-closing": 2,
+    // Omit the value of the prop when it is explicitly true.
+    "react/jsx-boolean-value": 2
   },
   "plugins": [
     "react"
