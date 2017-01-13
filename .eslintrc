@@ -77,7 +77,9 @@
     // jsx tags should be self closing if they don't have children
     "react/self-closing-comp": 2,
     // multiline jsx should be wrapped in parens
-    "react/wrap-multilines": 2
+    "react/wrap-multilines": 2,
+    // Configure the position of the first property
+    "jsx-first-prop-new-line": [2, "multiline"]
   },
   "plugins": [
     "react"
