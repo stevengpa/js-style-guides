@@ -93,7 +93,7 @@
     // Suggest using template literals instead of string concatenation. (prefer-template)
     "prefer-template": 2,
     // disallow dangling underscores in identifiers (no-underscore-dangle)
-    "no-underscore-dangle": [2, { "allowAfterThis": false, "allowAfterThis": false, "allowAfterSuper": false }],
+    "no-underscore-dangle": [2, { "allowAfterThis": false, "allowAfterSuper": false }],
     // only allow double quotes for jsx attributes, unless the attr contains quotes (since escaping is impossible)
     // Require Object Literal Shorthand Syntax
     "object-shorthand": [2, "properties"],
@@ -138,5 +138,5 @@
   "plugins": [
     "react"
   ]
-  
+
 }
