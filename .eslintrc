@@ -56,13 +56,6 @@
     "quote-props": [2, "as-needed"],
     // Enforces return statements in callbacks of array’s methods (array-callback-return)
     "array-callback-return": 2,
-    // Prefer destructuring from arrays and objects (prefer-destructuring)
-    "prefer-destructuring": [2, {
-      "array": false,
-      "object": true
-    }, {
-      "enforceForRenamedProperties": false
-    }],
     // Disallow Functions in Loops (no-loop-func)
     "no-loop-func": 2,
     // Disallow Reassignment of Function Parameters (no-param-reassign)
