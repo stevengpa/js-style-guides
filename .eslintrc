@@ -67,6 +67,16 @@
     "no-loop-func": 2,
     // Disallow Reassignment of Function Parameters (no-param-reassign)
     "no-param-reassign": 2,
+    // Disallow Iterator (no-iterator)
+    "no-iterator": 2,
+    // Require or disallow a space before function parenthesis (space-before-function-paren)
+    "space-before-function-paren": [2, {
+        "anonymous": "always",
+        "named": "always",
+        "asyncArrow": "ignore"
+    }],
+    // Suggest using arrow functions as callbacks. (prefer-arrow-callback)
+    "prefer-arrow-callback": 2,
     // Suggest using template literals instead of string concatenation. (prefer-template)
     "prefer-template": 2,
     // disallow dangling underscores in identifiers (no-underscore-dangle)
