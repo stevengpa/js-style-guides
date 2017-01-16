@@ -68,8 +68,6 @@
     "no-mixed-spaces-and-tabs": 2,
     // don't allow unused vars and functions. allow unused function params.
     "no-unused-vars": [2, { "args": "none" }],
-    // semicolons must be used any place where they are valid.
-    "semi": [2, "always"],
     // only allow single quotes in javascript
     "quotes": [2, "single"],
     // require quotes around object literal property names (quote-props)
