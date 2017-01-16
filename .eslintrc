@@ -52,9 +52,28 @@
     "semi": [2, "always"],
     // only allow single quotes in javascript
     "quotes": [2, "single"],
+    // require quotes around object literal property names (quote-props)
+    "quote-props": [2, "as-needed"],
+    // Enforces return statements in callbacks of array’s methods (array-callback-return)
+    "array-callback-return": 2,
+    // Prefer destructuring from arrays and objects (prefer-destructuring)
+    "prefer-destructuring": ["error", {
+      "array": false,
+      "object": true
+    }, {
+      "enforceForRenamedProperties": false
+    }],
+    // Disallow Functions in Loops (no-loop-func)
+    "no-loop-func": 2,
+    // Disallow Reassignment of Function Parameters (no-param-reassign)
+    "no-param-reassign": 2,
+    // Suggest using template literals instead of string concatenation. (prefer-template)
+    "prefer-template": 2,
     // disallow dangling underscores in identifiers (no-underscore-dangle)
     "no-underscore-dangle": [2, { "allowAfterThis": false, "allowAfterThis": false, "allowAfterSuper": false }],
     // only allow double quotes for jsx attributes, unless the attr contains quotes (since escaping is impossible)
+    // Require Object Literal Shorthand Syntax
+    "object-shorthand": [2, "properties"],
     "jsx-quotes": [2, "prefer-double"],
     // all components must be defined in the module
     "react/jsx-no-undef": 2,
