@@ -52,6 +52,8 @@
     "semi": [2, "always"],
     // only allow single quotes in javascript
     "quotes": [2, "single"],
+    // disallow dangling underscores in identifiers (no-underscore-dangle)
+    "no-underscore-dangle": [2, { "allowAfterThis": false, "allowAfterThis": false, "allowAfterSuper": false }],
     // only allow double quotes for jsx attributes, unless the attr contains quotes (since escaping is impossible)
     "jsx-quotes": [2, "prefer-double"],
     // all components must be defined in the module
@@ -85,7 +87,11 @@
     // Always include a single space in your self-closing tag.
     "react/jsx-space-before-closing": 2,
     // Omit the value of the prop when it is explicitly true.
-    "react/jsx-boolean-value": 2
+    "react/jsx-boolean-value": 2,
+    // Enforce ES5 or ES6 class for returning value in render function (require-render-return)
+    "react/require-render-return": 2,
+    // Ordering for React.createClass
+    "react/sort-comp": 2
   },
   "plugins": [
     "react"
