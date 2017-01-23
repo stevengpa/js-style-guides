@@ -33,7 +33,7 @@
     // Disallow or enforce spaces inside of brackets (array-bracket-spacing)
     "array-bracket-spacing": ["error", "never"],
     // enforce consistent spacing inside braces (object-curly-spacing)
-    "object-curly-spacing": [2, "never"],
+    "object-curly-spacing": [2, "always"],
     // enforce a maximum line length (max-len)
     "max-len": [2, 120],
     // disallow trailing spaces at the end of lines
@@ -82,8 +82,8 @@
     "no-iterator": 2,
     // Require or disallow a space before function parenthesis (space-before-function-paren)
     "space-before-function-paren": [2, {
-        "anonymous": "always",
-        "named": "always",
+        "anonymous": "never",
+        "named": "never",
         "asyncArrow": "ignore"
     }],
     // Suggest using arrow functions as callbacks. (prefer-arrow-callback)
