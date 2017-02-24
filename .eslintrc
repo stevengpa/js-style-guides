@@ -67,7 +67,7 @@
     // disallow mixed spaces and tabs for indentation
     "no-mixed-spaces-and-tabs": 2,
     // don't allow unused vars and functions. allow unused function params.
-    "no-unused-vars": [2, { "args": "none" }],
+    "no-unused-vars": 2,
     // only allow single quotes in javascript
     "quotes": [2, "single"],
     // require quotes around object literal property names (quote-props)
